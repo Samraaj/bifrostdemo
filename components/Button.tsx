@@ -1,6 +1,6 @@
-import { useMemo } from 'react';
+import { ComponentProps, useMemo } from 'react';
 
-type ButtonProps = {
+type ButtonProps = ComponentProps<'button'> & {
 	color?: 'primary' | 'secondary' | 'tertiary' | 'outline';
 	size?: 'sm' | 'md' | 'lg' | 'full';
 	icon?: 'left' | 'right' | 'none';
