@@ -62,7 +62,7 @@ function Button({
 	return (
 		<button
 			className={
-				'flex items-center justify-center gap-2 rounded-full py-2 font-semibold ' +
+				'flex items-center justify-center gap-2 rounded-[10px] py-2 font-semibold ' +
 				colorClasses +
 				sizeClasses
 			}

@@ -14,7 +14,20 @@ module.exports = {
 			xl: '1280px',
 			'2xl': '1536px',
 		},
-		extend: {},
+		extend: {
+			fontFamily: {
+				Benne: ['Benne'],
+				Besley: ['Besley'],
+				Bayon: ['Bayon'],
+				BarlowCondensed: ['Barlow Condensed'],
+				LexendDeca: ['Lexend Deca'],
+				LexendTera: ['Lexend Tera'],
+				Inter: ['Inter'],
+				SatoshiVariable: ['Satoshi Variable'],
+				PublicSans: ['Public Sans'],
+				Bevan: ['Bevan'],
+			},
+		},
 	},
 	plugins: [],
 };
